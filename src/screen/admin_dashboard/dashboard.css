@@ -1,0 +1,47 @@
+.dashboard{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(204, 208, 212);
+}
+
+.dashboard > .header{
+    max-width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.table{
+    width: 90%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.dashboard > .modal-container > .modal{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 2;
+}
+
+.add-doc{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
